@@ -1,0 +1,128 @@
+body{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.conteiner{
+    margin: 0px 160px;
+}
+
+.header{
+    background-image: url(/img/bg.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-line{
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav-item{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+    margin-right: 25px;
+    transition: color 0.3s linear;
+}
+.nav-item:hover{
+    color: red;
+}
+.cart{
+    position: relative;
+    border-right: 1px solid #FFFFFF ;
+    padding-right: 10px;
+    height:50px;
+}
+
+.cart-img{
+    position: absolute;
+    top: 18px;
+    right: 7px;
+}
+
+.num{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: 700;
+    transition: color 0.3s linear;
+}
+
+.num:hover{
+    color: red;
+}
+.phone-text{
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.phone-holder{
+    display: flex;
+    align-items: center;
+}
+
+.button{
+    background-color:#FF7400;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 14px 18px;
+    font-weight: 700;
+    transition: color 0.2s linear;
+
+}
+.button:hover{
+    background-color: #be5c0d;
+}
+
+.header-down{
+    position: relative;
+}
+.header-tittle{
+    color: #D67E35;
+    font-family: 'Tinos', serif;
+    font-size: 50px;
+    font-weight: 400;
+    text-align: center;
+    position: absolute;
+    left: 0;
+    margin-top: 322px;
+    
+    
+}
+.header-tittle{
+    color: #D67E35;
+    font-family: 'Tinos', serif;
+    font-size: 80px;
+    font-weight: 400;
+}
+
+.header-suptitle{
+    color: #FFFFFF;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header-suptitle::after{
+    position: absolute;
+    content: "";
+    height: 2px;
+    width: 61px;
+    background-color: #FFFFFF;
+    top: 192px;
+    left: 189px;
+}
+
+.header-suptitle::before{
+    position: absolute;
+    content: "";
+    height: 2px;
+    width: 61px;
+    background-color: #FFFFFF;
+    top: 192px;
+    left: 435px;
+}
